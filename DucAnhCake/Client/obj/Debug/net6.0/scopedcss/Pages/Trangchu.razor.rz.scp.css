@@ -1,0 +1,219 @@
+*[b-mtr9sil7qa] {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html[b-mtr9sil7qa] {
+    font-size: 16px;
+    /*1rem=18px*/
+    scroll-behavior: smooth;
+}
+
+body[b-mtr9sil7qa] {
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    background-color: white;
+    letter-spacing: 1px;
+}
+
+button[b-mtr9sil7qa] {
+    background-color: #ff0e83;
+    border: 1px solid white;
+    color: white;
+    padding: 13px 32px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+    button:hover[b-mtr9sil7qa] {
+        background-color: white;
+        border-color: #ff0e83;
+        color: #212529;
+    }
+
+h1[b-mtr9sil7qa] {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/*INTRO*/
+.intro[b-mtr9sil7qa] {
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    /* grid-template-columns: repeat(4, 25%); */
+    /*fr:phân số*/
+    grid-template-columns: repeat(4,1fr);
+}
+
+.intro__ab1[b-mtr9sil7qa] {
+    /*số line bắt đầu của item*/
+    /*số line kết thúc của item*/
+    /*số column item chiếm*/
+    /* grid-column: 2 / 4; */
+    grid-column: 2 / span 2;
+}
+
+.intro__bake[b-mtr9sil7qa] {
+    grid-column: 1 / span 2;
+}
+
+.intro__ab4[b-mtr9sil7qa] {
+    grid-column: 3 / span 2;
+}
+
+.intro__item[b-mtr9sil7qa] {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.intro__text[b-mtr9sil7qa] {
+    padding: 0 32px;
+}
+
+.intro__item img[b-mtr9sil7qa] {
+    width: 100%;
+    display: block;
+}
+
+.intro__item h3[b-mtr9sil7qa] {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.intro__item p[b-mtr9sil7qa] {
+    color: #c1c1c1;
+    font-size: 0.875rem;
+    line-height: 29px;
+}
+
+.intro .intro__item:first-child[b-mtr9sil7qa] {
+    background-color: #4e2a84;
+}
+
+.intro .intro__item:nth-child(3)[b-mtr9sil7qa] {
+    background-color: #ff0e83;
+}
+
+.intro .intro__item:nth-child(4)[b-mtr9sil7qa] {
+    background-color: #ed6498;
+}
+
+.intro .intro__item:nth-child(6)[b-mtr9sil7qa] {
+    background-color: #836eaa;
+}
+
+.intro .intro__item:nth-child(8)[b-mtr9sil7qa] {
+    background-color: #4e2a84;
+}
+.team[b-mtr9sil7qa] {
+    padding: 70px 0;
+
+}
+
+    .team h1[b-mtr9sil7qa] {
+        color: black;
+    }
+
+.team__content[b-mtr9sil7qa] {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;
+    margin: 0 auto;
+    gap: 25px 30px;
+}
+
+.team__item[b-mtr9sil7qa] {
+    position: relative;
+}
+
+.team__content .team__item img[b-mtr9sil7qa] {
+    width: 100%;
+    display: block;
+}
+
+.team__title[b-mtr9sil7qa] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #00cdce;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.team__item h3[b-mtr9sil7qa] {
+    font-size: 1.3rem;
+}
+
+.team__item p[b-mtr9sil7qa] {
+    font-size: 0.875rem;
+    line-height: 28px;
+}
+
+.team__details[b-mtr9sil7qa] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 100px 40px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+    .team__details h3[b-mtr9sil7qa] {
+        font-size: 1.3rem;
+        color: #ff0e83;
+    }
+
+    .team__details p[b-mtr9sil7qa] {
+        color: white;
+    }
+
+.team__text[b-mtr9sil7qa] {
+    margin: 8px 0;
+}
+
+.team__socials[b-mtr9sil7qa] {
+    margin: 24px 0 0;
+}
+
+    .team__socials i[b-mtr9sil7qa] {
+        width: 37px;
+        height: 37px;
+        border: 1.5px solid rgba(255, 255, 255, 0.5);
+        color: white;
+        line-height: 37px;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+        .team__socials i:hover[b-mtr9sil7qa] {
+            color: #ff0e83;
+            border-color: #ff0e83;
+        }
+
+.team__item:hover .team__title[b-mtr9sil7qa] {
+    opacity: 0;
+}
+
+.team__item:hover .team__details[b-mtr9sil7qa] {
+    opacity: 1;
+}
+h1[b-mtr9sil7qa] {
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = DucAnhCake.Client
+build_property.RootNamespace = DucAnhCake.Client
+build_property.ProjectDir = D:\DucAnhCake\DucAnhCake\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DucAnhCake\DucAnhCake\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DucAnhCake/DucAnhCake/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/CakeItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FrZUl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/CakeList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FrZUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/CustomerEntry.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJFbnRyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/ItemList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/ShoppingBasket.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdCYXNrZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DucAnhCake/DucAnhCake/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/Doanhthu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9hbmh0aHUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jv24eqk5w2
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mi6pvs2kxd
+
+[D:/DucAnhCake/DucAnhCake/Client/Pages/Trangchu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbmdjaHUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mtr9sil7qa
+
+[D:/DucAnhCake/DucAnhCake/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tekhzfkyyp
+
+[D:/DucAnhCake/DucAnhCake/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ijr7sjmh6e

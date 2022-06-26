@@ -1,0 +1,20 @@
+﻿<div class="row">
+    <div class="col">
+        @Cake.Name
+    </div>
+    <div class="col text-right">
+        @($"{Cake.Price:0.00}")
+    </div>
+    <div class="col"></div>
+    <div class="col">
+        <img src="@SugarImage(Cake.Sugar)"
+        alt="@Cake.Sugar" />
+    </div>
+    <div class="col">
+        <button class="@ButtonClass"
+            @onclick="@(() => Selected.InvokeAsync(Cake))">
+            @ButtonTitle
+        </button>
+    </div>
+</div>
+
